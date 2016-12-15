@@ -1,0 +1,4 @@
+n = yield r    //yield,放弃本函数的执行，同时把r的值返回给调用者send()。 n的值就是send(x)的参数值 
+	send(x)的参数值x就是yield调用后的返回值及n=x
+
+r = c.send(n)    //r的值就是yield的参数值。r的值就就是 yield调用后返回给send()或者next()
